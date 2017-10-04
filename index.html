@@ -7,7 +7,14 @@
 		<link rel="stylesheet" href="styles/phonestyles.css" />
 		<link rel="stylesheet" href="styles/slyder.css" />
 		<meta name="viewport" content="width=600, initial-scale=1">
-		
+		<style>
+			footer{
+			color: white;
+			}
+			footercopyright{
+			color: black;
+			}
+		</style>
 		<!-- jQuery -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<!-- FlexSlider -->
@@ -18,7 +25,6 @@
 				$('.flexslider').flexslider({
 					animation: "fade"
 				});
-				
 				$(function() {
 					$('.show_menu').click(function(){
 						$('.menu').fadeIn();
@@ -36,32 +42,28 @@
 	</head>
 	<body>
 		<div class="header">
-			<div class="header-info">
-				<div class="header-info-content">
-					<div class = "header-time">
+			<div class="header_info">
+				<div class="header_info_content">
+					<div class = "header_time">
 						<img src = "./img/time.png" height="80"/>
 					</div>
-					<div class="header-subscribe">
+					<div class="header_subscribe">
 						<img src = "./img/sub/vk.png" class="lang" height="30"/>
 						<img src = "./img/sub/insta.png" class="lang" height="30"/>
 						<img src = "./img/sub/fb.png" class="lang" height="30"/>
 					</div>
-					<div class="language-switch">
+					<div class="language_switch">
 						<img src = "./img/lang/en.png" class="lang" height="45"/>
 						<img src = "./img/lang/ru.png" class="lang" height="45"/>
 					</div>
 				</div>
 			</div>
-			<div class="header-gradient">
+			<div class="header_gradient">
 				<div class="logo">
 					<img src = "./img/logo.png" height="160"/>
 				</div>
 			</div>
 		</div>
-		
-		
-		
-		
 		<div class="slider_container">
 			<div class="flexslider">
 				<ul class="slides">
@@ -86,9 +88,36 @@
 				</ul>
 			</div>
 		</div>
-		
-		
-		
-		
+		<footer>
+			<div class="footer">
+				<div class="footer_background">
+					<div class="footer_text" id="footer_text_2">
+						СВЕДЕНИЯ ОБ ОБРАЗОВАТЕЛЬНОЙ ОРГАНИЗАЦИИ
+					</div>
+					<div class="footer_text" id="footer_text_1">
+						ФИРМЕННЫЙ СТИЛЬ
+					</div>
+					<div class="footer_text">
+						ОБРАТНАЯ СВЯЗЬ
+					</div>
+					<div class="footer_text" id="footer_text_1">
+						КАРТА САЙТА
+					</div>
+					<div class="footer_text">
+						ТЕХНИЧЕСКАЯ ПОДДЕРЖКА
+					</div>
+				</div>
+			</div>
+			<footercopyright class="footer_copyright">
+				<div class="footerwidth">
+					<div class="footer_logo">
+						<img src = "./img/logo.png" height="100"/>
+					</div>
+					<div class="footer_copyright_text">
+						© 2017 Институт авиационных технологий и управления 
+					</div>
+				</div>
+			</footercopyright>
+		</footer>
 	</body>
 </html>			
