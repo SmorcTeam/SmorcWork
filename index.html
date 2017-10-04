@@ -5,7 +5,34 @@
 		<title>Институт авиационных технологий и управления</title>
 		<link rel="stylesheet" href="styles/styles.css" />
 		<link rel="stylesheet" href="styles/phonestyles.css" />
+		<link rel="stylesheet" href="styles/slyder.css" />
 		<meta name="viewport" content="width=600, initial-scale=1">
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<!-- FlexSlider -->
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			var $ = jQuery.noConflict();
+			$(window).load(function() {
+				$('.flexslider').flexslider({
+					animation: "fade"
+				});
+				
+				$(function() {
+					$('.show_menu').click(function(){
+						$('.menu').fadeIn();
+						$('.show_menu').fadeOut();
+						$('.hide_menu').fadeIn();
+					});
+					$('.hide_menu').click(function(){
+						$('.menu').fadeOut();
+						$('.show_menu').fadeIn();
+						$('.hide_menu').fadeOut();
+					});
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div class="header">
@@ -31,5 +58,37 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		
+		
+		<div class="slider_container">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<a href="http://www.freshdesignweb.com"><img src="photos/1.jpg" alt="" title=""/></a>
+						<div class="flex-caption">
+							<div class="caption_title_line"><h2>Какая то хня 1</h2><p>Описание какой то хни 1</p></div>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.freshdesignweb.com"><img src="photos/2.jpg" alt="" title=""/></a>
+						<div class="flex-caption">
+							<div class="caption_title_line"><h2>Какая то хня 2</h2><p>Описание какой то хни 2</p></div>
+						</div>
+					</li>
+					<li>
+						<a href="http://www.freshdesignweb.com"><img src="photos/3.jpg" alt="" title=""/></a>
+						<div class="flex-caption">
+							<div class="caption_title_line"><h2>Какая то хня 3</h2><p>Описание какой то хни 3</p></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		
+		
 	</body>
-</html>	
+</html>			
