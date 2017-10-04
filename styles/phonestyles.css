@@ -1,0 +1,30 @@
+@media (max-width: 1100px) {
+	.header-subscribe{
+		margin: auto 0 auto auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.header-subscribe{
+		display: none;
+	}
+	
+	.language-switch{
+		margin: auto 0 auto auto;
+	}
+}
+
+@media (max-width: 700px) {
+	.header-time{
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 610px) {
+	.language-switch{
+		display: none;	
+	}
+	.header-time{
+		display: none;
+	}
+}
