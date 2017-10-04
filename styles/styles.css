@@ -39,7 +39,7 @@ body{
 
 .header-gradient{
 	height: 130px;
-	background: linear-gradient(to top, #0338a5, #4e73c2)
+	background: linear-gradient(to top, #0338a5, #4e73c2);
 }
 
 .logo{
@@ -47,4 +47,29 @@ body{
 	margin: 0 auto;	
     position: relative; /* Не лучшее решение, наверное"*/
     bottom: 50px;
+}
+.footer{
+    background: #0338a5;
+}
+.footer_background{
+    display: flex;
+	height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer_text{
+	text-align: center;
+    margin: auto auto auto auto;
+    text-decoration-color: 
+}
+.footer_logo{
+    float: left;
+    margin-right: 20px;
+}
+.footer_copyright{
+    float: left;
+	margin-left: 10%;
+}
+.footer_copyright_text{
+    margin-top: 30px;
 }
