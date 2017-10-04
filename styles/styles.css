@@ -1,3 +1,52 @@
-h1 {
-	color: red;
+body{
+	margin: 0 auto;
+}
+.header{
+	
+}
+
+.header-info{
+	height: 80px;
+}
+
+.header-info-content{
+	max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex; /*Очень удобное центрирование по вертикали. Не будет поддерживаться старыми браузерами*/
+}
+
+
+
+.header-time{	
+    float: left;
+    margin-left: 55px;
+}
+
+.header-subscribe{
+	float: right;
+	height: 30px;
+    margin: auto 100px auto auto;
+}
+
+.language-switch{
+	float: right;
+	height: 45px;
+    margin: auto 0;
+}
+
+.lang{
+	margin-right: 20px;
+}
+
+.header-gradient{
+	height: 130px;
+	background: linear-gradient(to top, #0338a5, #4e73c2)
+}
+
+.logo{
+	width: 300px;
+	margin: 0 auto;	
+    position: relative; /* Не лучшее решение, наверное"*/
+    bottom: 50px;
 }
