@@ -40,11 +40,50 @@ body{
     bottom: 50px;
 }
 
+.statistics{
+	max-width:1200px;
+	height: 220px;
+    margin: 0 auto;
+    position: relative;
+}
+.statistic_body{
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    display: flex; /*Мы же тру верстальщики, не верстаем под IE6*/
+    justify-content: space-evenly;
+}
+.statistic_item{
+    padding: 0 1px;
+}
+.statistic_photo{
+	background-image: url(../img/student.png);    
+	background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.statistic_value{
+	width: 200px;
+	font-family: MicrosoftJhengHei;
+	font-size: 57.7px;
+	text-align: center;
+	color: #ffffff;
+    position: absolute;
+    bottom: 5px;
+}
+.statistic_discription{
+    font-family: MicrosoftJhengHei;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 25px;
+}
+
 .footerwidth{
 	max-width: 1200px;
     margin: 0 auto;
 }
-
 .footer{
     background: #0338a5;
 }
@@ -53,10 +92,10 @@ body{
 	height: 40px;
     max-width: 1200px;
     margin: 0 auto;
-}
-.footer_text{
-	text-align: center;
-    margin: auto auto auto auto;
+	}
+	.footer_text{
+		text-align: center;
+	margin: auto auto auto auto;
     text-decoration-color: 
 }
 .footer_logo{
