@@ -40,6 +40,76 @@ body{
     bottom: 50px;
 }
 
+.iatu_news{
+	max-width: 1200px;
+	height: 750px;
+    margin: 0 auto;
+}
+
+.news_header{
+    margin: 0 20px;
+    overflow: hidden;
+    height: 55px;
+}
+.news_title{
+    width: 35%;
+	font-family: Sylfaen;
+	font-size: 35px;
+	color: #000000;
+	float: left;
+}
+.news_nav{
+    width: 65%;
+	float: left;
+    height: 35px;
+    border-bottom: solid #2251b1;
+}
+.news_menu{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.news_body{
+	width:100%;	
+    display: flex; /*Снова прекрасный FLEX*/
+    justify-content: space-evenly;
+    border-bottom: solid #2251b1;
+}
+.news_item{
+	max-width: 30%;
+	float: left;
+    padding: 10px;
+}
+.news_image{
+    width: 100%;
+}
+.news_item_title{
+	font-size: 20px;
+    margin: 5px;
+}
+.news_item_body{
+	font-size: 15px;
+    padding: 10px;
+}
+.news_more{
+    display: block;
+    width: 350px;
+    height: 50px;
+    font: 23px/28px Times, solid;
+    text-align: center;
+    background-color: #2251b1;
+    text-decoration: none;
+    color: #fff;
+    margin: 25px auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
 .statistics{
 	max-width:1200px;
 	height: 220px;
@@ -48,21 +118,21 @@ body{
 }
 .statistic_body{
     position: absolute;
-    bottom: 35px;
-    width: 100%;
-    display: flex; /*Мы же тру верстальщики, не верстаем под IE6*/
-    justify-content: space-evenly;
+bottom: 35px;
+width: 100%;
+display: flex; /*Мы же тру верстальщики, не верстаем под IE6*/
+justify-content: space-evenly;
 }
 .statistic_item{
-    padding: 0 1px;
+padding: 0 1px;
 }
 .statistic_photo{
 	background-image: url(../img/student.png);    
 	background-size: cover;
     width: 200px;
-    height: 200px;
-    margin: auto;
-    position: relative;
+height: 200px;
+margin: auto;
+position: relative;
 }
 .statistic_value{
 	width: 200px;
@@ -92,9 +162,9 @@ body{
 	height: 40px;
     max-width: 1200px;
     margin: 0 auto;
-	}
-	.footer_text{
-		text-align: center;
+}
+.footer_text{
+	text-align: center;
 	margin: auto auto auto auto;
     text-decoration-color: 
 }
