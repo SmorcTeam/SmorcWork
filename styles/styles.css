@@ -111,12 +111,13 @@ body{
 }
 
 .student_life{
-	max-width: 1200px;
 	height: 480px;
-    margin: 0 auto;
 	background-color: #002e96;
 }
-
+.student_life_content{
+	max-width: 1200px;
+    margin: 0 auto;
+}
 .student_life_header{
     margin-left: 60px;
     overflow: hidden;
