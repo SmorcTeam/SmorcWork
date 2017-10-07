@@ -109,7 +109,16 @@ body{
     padding-top: 20px;
     border-radius: 10px;
 }
-
+.news_menu a {
+    text-decoration: none;
+    color: #000000; /* стандартный цвет */
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.news_menu a:hover {
+    color: #0338a5; /* цвет при наведении */
+}
 .student_life{
 	height: 480px;
 	background-color: #002e96;
@@ -202,7 +211,16 @@ position: relative;
     text-align: center;
     margin-top: 25px;
 }
-
+.student_life_nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8); /* стандартный цвет */
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.student_life_nav a:hover {
+    color: #FFFF00; /* цвет при наведении */
+}
 .footerwidth{
 	max-width: 1200px;
     margin: 0 auto;
