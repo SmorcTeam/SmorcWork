@@ -40,6 +40,85 @@ body{
     bottom: 50px;
 }
 
+.iatu_news{
+	max-width: 1200px;
+	height: 750px;
+    margin: 0 auto;
+}
+
+.news_header{
+    margin: 0 20px;
+    overflow: hidden;
+    height: 55px;
+}
+.news_title{
+    width: 35%;
+	font-family: Sylfaen;
+	font-size: 35px;
+	color: #000000;
+	float: left;
+}
+.news_nav{
+    width: 65%;
+	float: left;
+    height: 35px;
+    border-bottom: solid #2251b1;
+}
+.news_menu{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.news_body{
+	width:100%;	
+    display: flex; /*Снова прекрасный FLEX*/
+    justify-content: space-evenly;
+    border-bottom: solid #2251b1;
+}
+.news_item{
+	max-width: 30%;
+	float: left;
+    padding: 10px;
+}
+.news_image{
+    width: 100%;
+}
+.news_item_title{
+	font-size: 20px;
+    margin: 5px;
+}
+.news_item_body{
+	font-size: 15px;
+    padding: 10px;
+}
+.news_more{
+    display: block;
+    width: 350px;
+    height: 50px;
+    font: 23px/28px Times, solid;
+    text-align: center;
+    background-color: #2251b1;
+    text-decoration: none;
+    color: #fff;
+    margin: 25px auto;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.news_menu a {
+    text-decoration: none;
+    color: #000000; /* стандартный цвет */
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.news_menu a:hover {
+    color: #0338a5; /* цвет при наведении */
+}
 .map_university_background{
     max-width: 1200px;
     height: 655px;
@@ -303,11 +382,112 @@ body{
     left:-30px;
     top:-30px;
 }
+.student_life{
+	height: 480px;
+	background-color: #002e96;
+}
+.student_life_content{
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.student_life_header{
+    margin-left: 60px;
+    overflow: hidden;
+    height: 55px;
+}
+.student_life_title{
+    width: 35%;
+	font-family: Sylfaen;
+	font-size: 35px;
+    color: #ffffff;
+	float: left;
+}
+.student_life_nav{
+    width: 65%;
+	float: left;
+    height: 40px;
+    border-bottom: solid #fff;
+}
+.student_life_menu{
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.student_life_body{
+	width:100%;	
+    display: flex; /*Снова прекрасный FLEX*/
+    justify-content: space-evenly;
+}
+.st_life_img{
+    margin: 30px;
+}
+.st_life_image{
+	width: 100%;
+}
+.st_life_text{
+    width: 100%;
+    padding: 20px;	
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.statistics{
+	max-width:1200px;
+	height: 220px;
+    margin: 0 auto;
+    position: relative;
+}
+.statistic_body{
+    position: absolute;
+bottom: 35px;
+width: 100%;
+display: flex; /*Мы же тру верстальщики, не верстаем под IE6*/
+justify-content: space-evenly;
+}
+.statistic_item{
+padding: 0 1px;
+}
+.statistic_photo{
+	background-image: url(../img/student.png);    
+	background-size: cover;
+    width: 200px;
+height: 200px;
+margin: auto;
+position: relative;
+}
+.statistic_value{
+	width: 200px;
+	font-family: MicrosoftJhengHei;
+	font-size: 57.7px;
+	text-align: center;
+	color: #ffffff;
+    position: absolute;
+    bottom: 5px;
+}
+.statistic_discription{
+    font-family: MicrosoftJhengHei;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 25px;
+}
+.student_life_nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8); /* стандартный цвет */
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.student_life_nav a:hover {
+    color: #FFFF00; /* цвет при наведении */
+}
 .footerwidth{
 	max-width: 1200px;
     margin: 0 auto;
 }
-
 .footer{
     background: #0338a5;
 }
@@ -319,7 +499,7 @@ body{
 }
 .footer_text{
 	text-align: center;
-    margin: auto auto auto auto;
+	margin: auto auto auto auto;
     text-decoration-color: 
 }
 .footer_logo{
