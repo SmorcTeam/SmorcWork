@@ -119,14 +119,22 @@ html[xmlns] .slides {
 	text-indent: -9999px;
 }
 
+
 .flex-direction-nav li a.next {
 	background:url(images/next.png) no-repeat center;
-	bottom:184px;
+	bottom:200px;
+	height:76px;
+	width:75px;
+	right:50px;
 }
 
 .flex-direction-nav li a.prev {
 	background:url(images/prev.png) no-repeat center;
-	bottom:141px;
+	bottom:200px;
+	height:76px;
+	width:75px;
+	left:50px;
+	
 }
 
 .flex-direction-nav li a.next:hover {
@@ -164,22 +172,26 @@ html[xmlns] .slides {
 }
 
 .flex-control-nav li a {
-	width: 13px;
-	height: 13px;
+	width:21px;
+	height: 22px;
 	display: block;
 	cursor: pointer;
 	text-indent: -9999px;
-    background-color: black;
+    background:url(images/point.png);
 }
 
 .flex-control-nav li a:hover {
 	background-position: 0 -13px;
-}
+	background:url(images/point2.png);
+	}
 
 .flex-control-nav li a.active {
 	background-position: 0 -26px;
 	cursor: default;	
     background-color: aqua;
+	background:url(images/point2.png);
+	
+	
 }
 
 
