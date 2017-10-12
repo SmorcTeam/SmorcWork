@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="styles/styles.css" />
 		<link rel="stylesheet" href="styles/phonestyles.css" />
 		<link rel="stylesheet" href="styles/slyder.css" />
+        <link rel="stylesheet" href="js/style.css">
 		<meta name="viewport" content="width=600, initial-scale=1">
 		<style>
 			footer{
@@ -90,7 +91,32 @@
 				</ul>
 			</div>
 		</div>
-        
+        <!-- New Slider -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">		
+                <img src="photos/1.jpg" style="width: 100%" alt="">	
+                <div class="text">Не следует, однако, забывать о том, что постоянный количественный рост...</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="photos/2.jpg" style="width: 100%" alt="">	
+                <div class="text">Соображения высшего порядка, а также выбранный нами инновационный путь создаёт...</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="photos/3.jpg" style="width: 100%" alt="">	
+                <div class="text">Разнообразный и богатый опыт начало повседневной работы по формированию позиции...</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+            
+            <div class = "dot_container" style="text-align: center";>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <br>
+        <!--------------->
         <div class = "map_university_background">
             <div class = "map_university_title">
                 Карта университета
@@ -164,6 +190,6 @@
 				</div>
 			</footercopyright>
 		</footer>
-        
+        <script src="js/script.js"></script>
 	</body>
 </html>			
